@@ -1,0 +1,28 @@
+[package]
+name = "RustyBuildTools"
+version = "1.0.0"
+authors = ["Ethan Jones <ethan@dreamin.gg>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1.6"
+zip = "0.5.6"
+md-5 = "0.9.1"
+regex = "1.5.4"
+chrono = "0.4.1"
+winreg = "0.9.0"
+subprocess = "0.2.7"
+clap = "3.0.0-beta.2"
+clap_conf = "0.1.5"
+indicatif = "0.16.2"
+rust-embed = "5.9.0"
+lazy_static = "1.4.0"
+hex-literal = "0.3.2"
+log = { version = "0.4.*", features = ["std"] }
+serde = { version = "1", features = ["derive"] }
+simplelog = { git = "https://github.com/littlebigbug/simplelog.rs", branch = "stable" }
+
+[dev-dependencies]
+thiserror = "1.0.26"
